@@ -1,177 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Web Project</title>
-
-<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
-
-<style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
-
-body{
-    background:#0b0f1a;
-    color:white;
-    font-family:'Orbitron',sans-serif;
-}
-
-.container{
-    max-width:1000px;
-    margin:60px auto;
-    padding:30px;
-}
-
-.back{
-    display:inline-block;
-    margin-bottom:30px;
-    color:#00ff00;
-    text-decoration:none;
-    font-size:18px;
-}
-
-h1{
-    text-align:center;
-    color:#00ff00;
-    margin-bottom:40px;
-}
-
-
-/* Front & Back Cards */
-
-.links{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
-    gap:25px;
-    margin-bottom:40px;
-}
-
-.card{
-    background:#142b45;
-    border-radius:15px;
-    padding:30px;
-    text-align:center;
-    transition:.3s;
-    box-shadow:0 0 15px rgba(0,255,0,.15);
-}
-
-.card:hover{
-    transform:translateY(-8px);
-    box-shadow:0 0 30px rgba(0,255,0,.35);
-}
-
-.card h2{
-    color:#00ff00;
-    margin-bottom:20px;
-}
-
-.card a{
-    display:inline-block;
-    padding:12px 25px;
-    background:#00aa44;
-    color:white;
-    text-decoration:none;
-    border-radius:8px;
-    transition:.3s;
-}
-
-.card a:hover{
-    background:#00ff00;
-    color:#111;
-}
-
-
-/* Description */
-
-.description{
-    margin:30px 0 40px;
-    background:#142b45;
-    padding:30px;
-    border-radius:15px;
-    line-height:1.8;
-}
-
-.description h2{
-    color:#00ff00;
-    margin-bottom:15px;
-}
-
-.description p{
-    color:#ddd;
-}
-
-
-/* Gallery */
-
-.gallery{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-    gap:20px;
-    margin-top:40px;
-}
-
-.gallery img{
-    width:100%;
-    height:170px;
-    object-fit:cover;
-    border-radius:12px;
-    cursor:pointer;
-    border:2px solid #00ff00;
-    transition:.3s;
-    box-shadow:0 0 10px rgba(0,255,0,.2);
-}
-
-.gallery img:hover{
-    transform:scale(1.05);
-    box-shadow:0 0 25px rgba(0,255,0,.5);
-}
-
-
-/* Image Viewer */
-
-.image-modal{
-    display:none;
-    position:fixed;
-    z-index:9999;
-    left:0;
-    top:0;
-    width:100%;
-    height:100%;
-    background:rgba(0,0,0,.9);
-    justify-content:center;
-    align-items:center;
-}
-
-.image-modal img{
-    max-width:90%;
-    max-height:90%;
-    border-radius:15px;
-    border:3px solid #00ff00;
-}
-
-.close{
-    position:absolute;
-    top:20px;
-    right:40px;
-    font-size:50px;
-    color:white;
-    cursor:pointer;
-}
-
-.close:hover{
-    color:#00ff00;
-}
-
-</style>
-
-</head>
-
-
-<body>
+﻿<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Ahmed Mohamed — Computer Engineering student, cybersecurity enthusiast, and developer based in Cairo.'><meta name='theme-color' content='#0c1012'><title>Online Delivery System | Ahmed Mohamed</title><link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css'><link rel='stylesheet' href='site.css'><script src='site.js' defer></script></head><body><a class='skip-link' href='#main'>Skip to content</a><header class='site-header'><a class='brand' href='index.html' aria-label='Ahmed Mohamed home'><span class='brand-mark'>am.</span> Ahmed Mohamed <small>/ Security</small></a><button class='menu-toggle' aria-label='Toggle navigation' aria-controls='site-nav' aria-expanded='false'>Menu</button><nav class='site-nav' id='site-nav' aria-label='Main navigation'><a href='index.html'>Home</a><a href='About.html'>About</a><a href='Education.html'>Education</a><a href='Experience.html'>Experience</a><a href='Projects.html'>Projects</a><a href='reports-blog/index.html'>Reports</a><a href='Contact.html'>Contact</a><a href='cv.html'>CV</a></nav></header><main id='main'>
 
 <div class="container">
 
@@ -185,7 +12,7 @@ h1{
 
 
 
-<!-- Front End & Back End -->
+
 
 <div class="links">
 
@@ -219,7 +46,7 @@ View on GitHub
 
 
 
-<!-- Description -->
+
 
 <div class="description">
 
@@ -243,7 +70,7 @@ secure API communication, and efficient data management.
 
 
 
-<!-- Project Images Gallery -->
+
 
 <div class="gallery">
 
@@ -264,7 +91,7 @@ secure API communication, and efficient data management.
 
 
 
-<!-- Full Image Viewer -->
+
 
 <div id="imageModal" class="image-modal" onclick="closeImage()">
 
@@ -298,5 +125,5 @@ function closeImage(){
 
 
 
-</body>
-</html>
+</main><footer class='site-footer'><span>© 2026 Ahmed Mohamed Mostafa</span><span>Built with curiosity. Based in Cairo.</span><a href='https://github.com/amx2ahmed' target='_blank'>GitHub ↗</a></footer></body></html>
+

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Security writeups and lab reports by Ahmed Mohamed.">
+  <meta name="theme-color" content="#101114">
+  <title>Reports | Ahmed Mohamed</title>
+  <link rel="stylesheet" href="reports.css">
+  <script src="reports.js" defer></script>
+</head>
+<body>
+  <aside class="sidebar">
+    <a class="mark" href="../index.html">am.</a>
+    <p class="kicker">Hacker and security researcher</p>
+    <h1>AMX2 Writeups</h1>
+    <p class="bio">Security notes, lab reports, web challenges, and practical exploitation walkthroughs.</p>
+    <nav class="side-nav" aria-label="Reports navigation">
+      <a href="../index.html">Portfolio</a>
+      <a href="../Projects.html">Projects</a>
+      <a href="https://medium.com/@AMX2_" target="_blank" rel="noopener noreferrer">Medium</a>
+    </nav>
+  </aside>
+
+  <main class="content">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Reports / AMX2</p>
+        <h2>All writeups</h2>
+      </div>
+      <label class="search">
+        <span>Search</span>
+        <input id="searchInput" type="search" placeholder="Search writeups..." autocomplete="off">
+      </label>
+    </header>
+
+    <section class="filters" aria-label="Filter reports">
+      <button class="active" data-filter="all">All</button>
+      <button data-filter="lab">Labs</button>
+      <button data-filter="web">Web</button>
+      <button data-filter="ctf">CTF</button>
+      <button data-filter="medium">Medium</button>
+    </section>
+
+    <section class="layout">
+      <div class="posts" id="posts">
+        <article class="post featured" data-tags="lab metasploitable local" data-title="metasploitable pos exploitation walkthrough">
+          <a href="../Metasploitable/Metasploitable_1.html">
+            <div class="post-body">
+              <div class="meta"><span>Local report</span><span>Lab</span></div>
+              <h3>Metasploitable POS Exploitation Walkthrough</h3>
+              <p>Enumeration, vulnerable service discovery, Metasploit exploitation, post-exploitation notes, and remediation thinking.</p>
+              <div class="tags"><span>Metasploitable</span><span>Linux</span><span>Exploitation</span></div>
+            </div>
+          </a>
+        </article>
+
+        <article class="post" data-tags="lab kioptrix local" data-title="kioptrix level 1">
+          <a href="../Kioptrix/Kioptrix_level1 .html">
+            <div class="post-body">
+              <div class="meta"><span>Local report</span><span>Lab</span></div>
+              <h3>Kioptrix Level 1</h3>
+              <p>Service enumeration, Apache/mod_ssl investigation, Samba exploitation path, and privilege escalation notes.</p>
+              <div class="tags"><span>Kioptrix</span><span>Samba</span><span>Privilege Escalation</span></div>
+            </div>
+          </a>
+        </article>
+
+        <article class="post" data-tags="medium web rootme nosql ctf" data-title="finding a hidden user via nosql injection root me">
+          <a href="https://medium.com/@AMX2_/finding-a-hidden-user-via-nosql-injection-root-me-4265d42041a6" target="_blank" rel="noopener noreferrer">
+            <div class="post-body">
+              <div class="meta"><span>Medium</span><span>Feb 1, 2026</span></div>
+              <h3>Finding a Hidden User via NoSQL Injection (Root Me)</h3>
+              <p>Identifying a hidden user by exploiting NoSQL query logic in an authentication challenge.</p>
+              <div class="tags"><span>NoSQL</span><span>Root Me</span><span>Web</span></div>
+            </div>
+          </a>
+        </article>
+
+        <article class="post" data-tags="medium lab metasploitable" data-title="metasploitable pos exploitation walkthrough">
+          <a href="https://medium.com/@AMX2_/metasploitable-pos-exploitation-walkthrough-1ca51aabdc56" target="_blank" rel="noopener noreferrer">
+            <div class="post-body">
+              <div class="meta"><span>Medium</span><span>Aug 12, 2025</span></div>
+              <h3>Metasploitable POS Exploitation Walkthrough</h3>
+              <p>A practical walkthrough covering target discovery, service enumeration, exploitation, and post-exploitation checks.</p>
+              <div class="tags"><span>Metasploitable</span><span>Lab</span><span>Medium</span></div>
+            </div>
+          </a>
+        </article>
+
+        <article class="post" data-tags="medium web portswigger logic" data-title="exploiting a logic flaw to gain admin access">
+          <a href="https://medium.com/@AMX2_/exploiting-a-logic-flaw-to-gain-admin-access-6d4a87659b03" target="_blank" rel="noopener noreferrer">
+            <div class="post-body">
+              <div class="meta"><span>Medium</span><span>Aug 5, 2025</span></div>
+              <h3>Exploiting a Logic Flaw to Gain Admin Access</h3>
+              <p>A concise web security writeup showing how weak input validation can lead to administrative access.</p>
+              <div class="tags"><span>Logic Flaw</span><span>Web</span><span>Admin Access</span></div>
+            </div>
+          </a>
+        </article>
+
+        <article class="post" data-tags="medium web portswigger authentication" data-title="authentication portswigger broken brute force protection">
+          <a href="https://medium.com/@AMX2_/authentication-portswigger-1fd1c49cee9b" target="_blank" rel="noopener noreferrer">
+            <div class="post-body">
+              <div class="meta"><span>Medium</span><span>Aug 3, 2025</span></div>
+              <h3>Authentication PortSwigger</h3>
+              <p>Broken brute-force protection and IP blocking behavior explored through a PortSwigger authentication lab.</p>
+              <div class="tags"><span>Authentication</span><span>PortSwigger</span><span>Web</span></div>
+            </div>
+          </a>
+        </article>
+      </div>
+
+      <aside class="right-rail">
+        <section>
+          <h3>Recently Updated</h3>
+          <a href="https://medium.com/@AMX2_/finding-a-hidden-user-via-nosql-injection-root-me-4265d42041a6" target="_blank" rel="noopener noreferrer">NoSQL Injection (Root Me)</a>
+          <a href="../Metasploitable/Metasploitable_1.html">Metasploitable Report</a>
+          <a href="../Kioptrix/Kioptrix_level1 .html">Kioptrix Level 1</a>
+        </section>
+        <section>
+          <h3>Trending Tags</h3>
+          <div class="tag-cloud">
+            <button data-filter="web">web</button>
+            <button data-filter="lab">labs</button>
+            <button data-filter="ctf">ctf</button>
+            <button data-filter="medium">medium</button>
+            <button data-search="portswigger">portswigger</button>
+            <button data-search="metasploitable">metasploitable</button>
+            <button data-search="nosql">nosql</button>
+          </div>
+        </section>
+      </aside>
+    </section>
+  </main>
+</body>
+</html>

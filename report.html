@@ -1,89 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>My Reports</title>
-  <style>
-    body {
-      font-family: "Georgia", "Times New Roman", serif;
-      background-color: #fafafa;
-      margin: 0;
-      padding: 0;
-      color: #333;
-      line-height: 1.6;
-    }
-
-    header {
-      background: #fff;
-      border-bottom: 1px solid #eee;
-      padding: 20px 40px;
-      position: sticky;
-      top: 0;
-      z-index: 1000;
-    }
-
-    header h1 {
-      margin: 0;
-      font-size: 28px;
-      font-weight: bold;
-      color: #111;
-    }
-
-    .container {
-      max-width: 800px;
-      margin: 40px auto;
-      padding: 0 20px;
-    }
-
-    .report-card {
-      display: flex;
-      flex-direction: column;
-      background: #fff;
-      border-radius: 12px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-      overflow: hidden;
-      transition: transform 0.2s ease, box-shadow 0.2s ease;
-      margin-bottom: 30px;
-      text-decoration: none;
-      color: inherit;
-    }
-
-    .report-card:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 8px 20px rgba(0,0,0,0.12);
-    }
-
-    .report-card img {
-      width: 100%;
-      height: 260px;
-      object-fit: cover;
-    }
-
-    .report-content {
-      padding: 20px;
-    }
-
-    .report-title {
-      font-size: 24px;
-      font-weight: bold;
-      margin-bottom: 10px;
-      color: #111;
-    }
-
-    .report-excerpt {
-      font-size: 16px;
-      color: #555;
-    }
-  </style>
-</head>
-<body>
-
-  <header>
-    <h1>📑 My Reports</h1>
-  </header>
-
-  <div class="container">
-    <!-- Report 1 -->
+﻿<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Ahmed Mohamed — Computer Engineering student, cybersecurity enthusiast, and developer based in Cairo.'><meta name='theme-color' content='#0c1012'><title>Security Reports | Ahmed Mohamed</title><link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css'><link rel='stylesheet' href='site.css'><script src='site.js' defer></script></head><body><a class='skip-link' href='#main'>Skip to content</a><header class='site-header'><a class='brand' href='index.html' aria-label='Ahmed Mohamed home'><span class='brand-mark'>am.</span> Ahmed Mohamed <small>/ Security</small></a><button class='menu-toggle' aria-label='Toggle navigation' aria-controls='site-nav' aria-expanded='false'>Menu</button><nav class='site-nav' id='site-nav' aria-label='Main navigation'><a href='index.html'>Home</a><a href='About.html'>About</a><a href='Education.html'>Education</a><a href='Experience.html'>Experience</a><a href='Projects.html'>Projects</a><a href='reports-blog/index.html'>Reports</a><a href='Contact.html'>Contact</a><a href='cv.html'>CV</a></nav></header><main id='main'><div class="container"><div class="eyebrow">Notes from the lab</div><h1>Security reports.</h1><p class="page-intro">Documenting the process, understanding the impact, and finding a path to remediation.</p>
+    
     <a href="Metasploitable/Metasploitable_1.html" class="report-card">
       <img src="report_image/msfu-req1.png" alt="Report 1">
       <div class="report-content">
@@ -96,7 +12,7 @@
       </div>
     </a>
 
-    <!-- Report 2 -->
+    
     <a href="Kioptrix/Kioptrix_level1 .html" class="report-card">
       <img src="report_image/Kioptrix.png" alt="Report 2">
       <div class="report-content">
@@ -107,86 +23,5 @@
   
         </div>
       </div>
-    </a>
-    
+    </a></div></main><footer class='site-footer'><span>© 2026 Ahmed Mohamed Mostafa</span><span>Built with curiosity. Based in Cairo.</span><a href='https://github.com/amx2ahmed' target='_blank'>GitHub ↗</a></footer></body></html>
 
- <!-- Report 3 
-    <a href="RootMe/nosql-injection-report.html" class="report-card">
-      <img src="RootMe/nosql.webp" alt="Report 2">
-      <div class="report-content">
-        <div class="report-title">NoSQL Injection Report</div>
-        <div class="report-excerpt">
-          This report details the discovery and exploitation of a NoSQL Injection vulnerability in the Root Me challenge.
-        </div>
-      </div>
-    </a>
- -->
-    
-    <!-- 
-    <a href="#" class="report-card">
-      <img src="img/report3.jpg" alt="Report 3">
-      <div class="report-content">
-        <div class="report-title">Mobile App Security Report</div>
-        <div class="report-excerpt">
-          Security testing of the mobile application uncovered issues with data storage,
-          API communication, and insufficient encryption practices...
-        </div>
-      </div>
-    </a>
-  </div>
-
-
-  nosql-injection-report.html
-  -->
-  
-
-</body>
-</html>
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Back Button Example</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      height: 2000px; /* بس علشان نختبر الاسكرول */
-      background: #f5f7fa;
-    }
-    .back-btn {
-      position: fixed;
-      top: 20px;
-      right: 20px;
-      padding: 12px 25px;
-      font-size: 16px;
-      font-weight: bold;
-      color: #fff;
-      background: linear-gradient(135deg, #007bff, #00d4ff);
-      border: none;
-      border-radius: 30px;
-      text-decoration: none;
-      box-shadow: 0 4px 12px rgba(0, 123, 255, 0.4);
-      transition: all 0.3s ease;
-      z-index: 1000;
-    }
-    .back-btn:hover {
-      background: linear-gradient(135deg, #0056b3, #0099cc);
-      transform: translateY(-3px);
-      box-shadow: 0 6px 18px rgba(0, 123, 255, 0.6);
-    }
-    .back-btn:active {
-      transform: translateY(1px);
-      box-shadow: 0 2px 8px rgba(0, 123, 255, 0.4);
-    }
-  </style>
-</head>
-<body>
-  <!-- زر Back -->
-  <a href="Projects.html" class="back-btn">Back</a>
-
-</body>
-</html>

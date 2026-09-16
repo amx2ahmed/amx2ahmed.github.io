@@ -1,4 +1,4 @@
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Metasploitable </title><style>
+﻿<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Metasploitable </title><style>
 /* cspell:disable-file */
 /* webkit printing magic: print all background colors */
 html {
@@ -686,7 +686,7 @@ blockquote.quote-large {
 	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
 }
 	
-</style></head><body><article id="24de310c-e84f-8040-8d8e-fb3c4462e7a6" class="page sans"><header><div class="page-header-icon undefined"><span class="icon">📶</span></div><h1 class="page-title">Metasploitable </h1><p class="page-description"></p></header><div class="page-body"><details open=""><summary style="font-weight:600;font-size:1.875em;line-height:1.3;margin:0">Metasploitable</summary><div class="indented"><p id="24de310c-e84f-816e-90dc-e0e0a0362bd8" class="">
+</style><meta name='viewport' content='width=device-width, initial-scale=1'><link rel='stylesheet' href='../site.css'></head><body class='article-page'><a class='skip-link' href='#main'>Skip to content</a><div class='site-header'><a class='brand' href='../index.html'><span class='brand-mark'>am.</span> Ahmed Mohamed</a><a class='button secondary' href='../report.html'>← All reports</a></div><main id='main'><article id="24de310c-e84f-8040-8d8e-fb3c4462e7a6" class="page sans"><header><div class="page-header-icon undefined"><span class="icon">📶</span></div><h1 class="page-title">Metasploitable </h1><p class="page-description"></p></header><div class="page-body"><details open=""><summary style="font-weight:600;font-size:1.875em;line-height:1.3;margin:0">Metasploitable</summary><div class="indented"><p id="24de310c-e84f-816e-90dc-e0e0a0362bd8" class="">
 </p><h2 id="24de310c-e84f-81cc-a15b-f634ea5daad8" class=""><strong>1. Environment Setup</strong></h2><ul id="24de310c-e84f-81e4-9e11-c5fd837ff636" class="bulleted-list"><li style="list-style-type:disc"><strong>Target:</strong> Metasploitable VM</li></ul><ul id="24de310c-e84f-8109-b298-fac43c48d267" class="bulleted-list"><li style="list-style-type:disc"><strong>Attacker Machine:</strong> Kali Linux</li></ul><ul id="24de310c-e84f-81b4-968f-f861a27e209e" class="bulleted-list"><li style="list-style-type:disc">Changed <strong>VM network adapter</strong> from <strong>NAT</strong> to <strong>Bridged</strong> to ensure both machines are on the same network.</li></ul><hr id="24de310c-e84f-8114-9f9a-c197db1def3a"/><h2 id="24de310c-e84f-815f-aede-c5436d2fc587" class=""><strong>2. Finding the Target IP</strong></h2><p id="24de310c-e84f-81fc-a09a-e59ea01ff7f4" class="">After the VM booted, I scanned the local network to identify its IP:</p><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="24de310c-e84f-816d-97c0-ec0e4b63d822" class="code code-wrap"><code class="language-Bash" style="white-space:pre-wrap;word-break:break-all">sudo arp-scan -l
 nmap -sn &lt;your_ip_range&gt;/24
 netdiscover</code></pre><p id="24de310c-e84f-8113-9b75-e607672799b7" class="">✅ <strong>Result:</strong> Target IP found → <code>192.168.179.139</code></p><figure id="24de310c-e84f-81e3-bb5e-e51a4e6667e2" class="image"><a href="image.png"><img style="width:681.9874877929688px" src="image.png"/></a></figure><hr id="24de310c-e84f-8149-8064-f56c1f09c149"/><h2 id="24de310c-e84f-81cd-86ff-f3896bfc8a49" class=""><strong>3. Port &amp; Service Enumeration</strong></h2><p id="24de310c-e84f-8190-bd57-d4147276baf7" class="">Used <strong>Nmap</strong> to discover open ports and service versions:</p><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="24de310c-e84f-8108-b04f-ffbfbce827fc" class="code code-wrap"><code class="language-Bash" style="white-space:pre-wrap;word-break:break-all">nmap -sV 192.168.179.139</code></pre><p id="24de310c-e84f-8105-8600-fa4816b069b0" class="">📌 <strong>Output:</strong> Multiple services detected, including the vulnerable POS service.</p><figure id="24de310c-e84f-818f-88f5-f366faf21e5f" class="image"><a href="image%201.png"><img style="width:681.9750366210938px" src="image%201.png"/></a></figure><hr id="24de310c-e84f-8166-819b-e21543bb628b"/><h2 id="24de310c-e84f-8187-bbe4-d7257d404070" class=""><strong>4. Vulnerability Identification</strong></h2><ul id="24de310c-e84f-81c4-a4cf-c1b202f18d23" class="bulleted-list"><li style="list-style-type:disc">Searched for known exploits for the detected POS service.</li></ul><ul id="24de310c-e84f-81dc-9d15-d2c52f040954" class="bulleted-list"><li style="list-style-type:disc">Found a matching Metasploit module for the service version.</li></ul><figure id="24de310c-e84f-81f6-964d-f0f71c772602" class="image"><a href="image%202.png"><img style="width:653.9625244140625px" src="image%202.png"/></a></figure><hr id="24de310c-e84f-815e-9d58-e7dee1e2c08e"/><h2 id="24de310c-e84f-81f9-a723-e4966a7444c8" class=""><strong>5. Exploitation with Metasploit</strong></h2><ol type="1" id="24de310c-e84f-8110-907b-f4bbc0967e7c" class="numbered-list" start="1"><li><strong>Start Metasploit</strong><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="24de310c-e84f-81fe-bca6-d7730422c85e" class="code code-wrap"><code class="language-Bash" style="white-space:pre-wrap;word-break:break-all">msfconsole</code></pre></li></ol><ol type="1" id="24de310c-e84f-81e7-b9ac-e4d0f41f84a8" class="numbered-list" start="2"><li><strong>Search and select the exploit</strong><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="24de310c-e84f-8147-a7ad-c9ae736c5c16" class="code code-wrap"><code class="language-Bash" style="white-space:pre-wrap;word-break:break-all">search PostgreSQL DB 8.3.0 - 8.3.7
@@ -734,51 +734,4 @@ and password is msfadmin
 </p><p id="24de310c-e84f-8191-ab48-c9303b8a4760" class="">
 </p><p id="24de310c-e84f-8158-9dfd-e1a529049a45" class="">
 </p><p id="24de310c-e84f-81c5-aad5-f6f5a3a166a0" class="">
-</p></div></details></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Back Button Example</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      height: 2000px; /* بس علشان نختبر الاسكرول */
-      background: #f5f7fa;
-    }
-    .back-btn {
-      position: fixed;
-      top: 20px;
-      right: 20px;
-      padding: 12px 25px;
-      font-size: 16px;
-      font-weight: bold;
-      color: #fff;
-      background: linear-gradient(135deg, #007bff, #00d4ff);
-      border: none;
-      border-radius: 30px;
-      text-decoration: none;
-      box-shadow: 0 4px 12px rgba(0, 123, 255, 0.4);
-      transition: all 0.3s ease;
-      z-index: 1000;
-    }
-    .back-btn:hover {
-      background: linear-gradient(135deg, #0056b3, #0099cc);
-      transform: translateY(-3px);
-      box-shadow: 0 6px 18px rgba(0, 123, 255, 0.6);
-    }
-    .back-btn:active {
-      transform: translateY(1px);
-      box-shadow: 0 2px 8px rgba(0, 123, 255, 0.4);
-    }
-  </style>
-</head>
-<body>
-  <!-- زر Back -->
-  <a href="../report.html" class="back-btn">Back</a>
-
-</body>
-</html>
+</p></div></details></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></main><footer class='site-footer'><span>Ahmed Mohamed / Security research</span><a href='../report.html'>Back to reports ↑</a></footer></body></html>
