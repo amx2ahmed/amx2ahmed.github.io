@@ -1,98 +1,928 @@
 %PDF-1.4
-%“Œ‹ž ReportLab Generated PDF document (opensource)
+%âãÏÓ
 1 0 obj
 <<
-/F1 2 0 R /F2 3 0 R
+/Producer (pypdf)
 >>
 endobj
 2 0 obj
 <<
-/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+/Type /Pages
+/Count 1
+/Kids [ 4 0 R ]
 >>
 endobj
 3 0 obj
 <<
-/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+/Type /Catalog
+/Pages 2 0 R
 >>
 endobj
 4 0 obj
 <<
-/A <<
-/S /URI /Type /Action /URI (https://www.linkedin.com/in/ahmed-mohamed-59845428a/)
->> /Border [ 0 0 0 ] /Rect [ 301.016 759.9833 334.28 770.5433 ] /Subtype /Link /Type /Annot
+/Annots [ 5 0 R 6 0 R 7 0 R ]
+/Contents 8 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 9 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
 >>
 endobj
 5 0 obj
 <<
 /A <<
-/S /URI /Type /Action /URI (https://github.com/amx2ahmed)
->> /Border [ 0 0 0 ] /Rect [ 341.4608 759.9833 368.8464 770.5433 ] /Subtype /Link /Type /Annot
+/S /URI
+/Type /Action
+/URI (https\072\057\057www\056linkedin\056com\057in\057ahmed\055mohamed\05559845428a\057)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 366.3333 761.8498 397.3293 771.6898 ]
+/Subtype /Link
+/Type /Annot
 >>
 endobj
 6 0 obj
 <<
 /A <<
-/S /URI /Type /Action /URI (https://www.youtube.com/@pwn_sec)
->> /Border [ 0 0 0 ] /Rect [ 376.0272 759.9833 411.7376 770.5433 ] /Subtype /Link /Type /Annot
+/S /URI
+/Type /Action
+/URI (https\072\057\057github\056com\057amx2ahmed)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 404.0205 761.8498 429.5389 771.6898 ]
+/Subtype /Link
+/Type /Annot
 >>
 endobj
 7 0 obj
 <<
-/Annots [ 4 0 R 5 0 R 6 0 R ] /Contents 11 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 10 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 
-  /Trans <<
-
->> /Type /Page
+/A <<
+/S /URI
+/Type /Action
+/URI (https\072\057\057www\056youtube\056com\057\100pwn\137sec)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 436.2301 761.8498 469.5057 771.6898 ]
+/Subtype /Link
+/Type /Annot
 >>
 endobj
 8 0 obj
 <<
-/PageMode /UseNone /Pages 10 0 R /Type /Catalog
+/Length 11230
 >>
+stream
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+q
+1 0 0 1 40.56 789.6898 cm
+q
+0.066667 0.066667 0.066667 rg
+BT
+1 0 0 1 0 3 Tm
+/F2 18 Tf
+21 TL
+190.0728 0 Td
+(Ahmed Mostafa) Tj
+T*
+-190.0728 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 40.56 775.6898 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 9.5 Tf
+12 TL
+215.3728 0 Td
+(Penetration Tester) Tj
+T*
+-215.3728 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 40.56 761.6898 cm
+q
+0.023529 0.270588 0.678431 RG
+n
+325.7733 0.775 m
+356.7693 0.775 l
+S
+n
+363.4605 0.775 m
+388.9789 0.775 l
+S
+n
+395.6701 0.775 m
+428.9457 0.775 l
+S
+BT
+1 0 0 1 0 1.8 Tm
+85.2099 0 Td
+10 TL
+/F1 8.2 Tf
+0.066667 0.066667 0.066667 rg
+(Giza\054 Egypt \174 \05320 1018679337 \174 ahmed\056m\056pentester\100gmail\056com \174 ) Tj
+0.023529 0.270588 0.678431 rg
+(LinkedIn) Tj
+0.066667 0.066667 0.066667 rg
+( \174 ) Tj
+0.023529 0.270588 0.678431 rg
+(GitHub) Tj
+0.066667 0.066667 0.066667 rg
+( \174 ) Tj
+0.023529 0.270588 0.678431 rg
+(YouTube) Tj
+T*
+-85.2099 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 40.56 753.6898 cm
+Q
+q
+1 0 0 1 40.56 736.6898 cm
+q
+0.066667 0.066667 0.066667 rg
+BT
+1 0 0 1 0 2.4 Tm
+/F2 9.6 Tf
+12 TL
+(PROFESSIONAL SUMMARY) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 40.56 734.1398 cm
+q
+0.55 w
+1 J
+0.266667 0.266667 0.266667 RG
+n
+0 0 m
+514.1556 0 l
+S
+Q
+Q
+q
+1 0 0 1 40.56 690.3398 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 32.6 Tm
+/F1 8.2 Tf
+10.2 TL
+(Penetration Tester and Computer Engineering student focused on web application and network penetration testing\056 Hands\055on experience with) Tj
+T*
+(reconnaissance\054 vulnerability validation\054 exploitation\054 reporting\054 and remediation guidance using tools such as Burp Suite\054 Nmap\054 Metasploit\054) Tj
+T*
+(Wireshark\054 and SQLMap\056 Ranked in the top 3\045 on TryHackMe\054 active on Hack The Box\054 Mentor Intern at ADA\054 and cybersecurity content) Tj
+T*
+(creator at pwn\137sec\056 Also building foundational exposure to Active Directory and mobile application security\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 40.56 685.3398 cm
+Q
+q
+1 0 0 1 40.56 668.3398 cm
+q
+0.066667 0.066667 0.066667 rg
+BT
+1 0 0 1 0 2.4 Tm
+/F2 9.6 Tf
+12 TL
+(TECHNICAL SKILLS) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 40.56 665.7898 cm
+q
+0.55 w
+1 J
+0.266667 0.266667 0.266667 RG
+n
+0 0 m
+514.1556 0 l
+S
+Q
+Q
+q
+1 0 0 1 40.56 642.3898 cm
+q
+BT
+1 0 0 1 0 12.2 Tm
+10.2 TL
+/F2 8.2 Tf
+0 0 0 rg
+(Core Penetration Testing\072) Tj
+/F1 8.2 Tf
+( Web Application Testing\054 Network Penetration Testing\054 OWASP Top 10\054 CVE Analysis\054 Exploitation\054) Tj
+T*
+(Post\055Exploitation\054 Vulnerability Validation) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 40.56 629.1898 cm
+q
+BT
+1 0 0 1 0 2 Tm
+10.2 TL
+/F2 8.2 Tf
+0 0 0 rg
+(Security Tools\072) Tj
+/F1 8.2 Tf
+( Burp Suite\054 Nmap\054 Metasploit\054 Nessus\054 Wireshark\054 SQLMap\054 Nikto\054 Hydra) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 40.56 605.7898 cm
+q
+BT
+1 0 0 1 0 12.2 Tm
+10.2 TL
+/F2 8.2 Tf
+0 0 0 rg
+(Reporting and Analysis\072) Tj
+/F1 8.2 Tf
+( Vulnerability Assessment\054 Threat Modeling\054 Risk Analysis\054 Data Flow Mapping\054 CVSS\054 Security Documentation\054) Tj
+T*
+(Remediation Planning) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 40.56 592.5898 cm
+q
+BT
+1 0 0 1 0 2 Tm
+10.2 TL
+/F2 8.2 Tf
+0 0 0 rg
+(Networking\072) Tj
+/F1 8.2 Tf
+( Routing and Switching\054 VLANs\054 OSPF\054 NAT\054 ACLs\054 HSRP\054 VPN\054 Network Hardening) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 40.56 579.3898 cm
+q
+BT
+1 0 0 1 0 2 Tm
+10.2 TL
+/F2 8.2 Tf
+0 0 0 rg
+(Foundational Exposure\072) Tj
+/F1 8.2 Tf
+( Active Directory basics\054 Mobile Application Security basics) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 40.56 566.1898 cm
+q
+BT
+1 0 0 1 0 2 Tm
+10.2 TL
+/F2 8.2 Tf
+0 0 0 rg
+(Programming\072) Tj
+/F1 8.2 Tf
+( Bash Scripting\054 Python basics\054 JavaScript\054 Java\054 SQL\054 C\053\053) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 40.56 552.9898 cm
+q
+BT
+1 0 0 1 0 2 Tm
+10.2 TL
+/F2 8.2 Tf
+0 0 0 rg
+(Operating Systems\072) Tj
+/F1 8.2 Tf
+( Kali Linux\054 Ubuntu\054 Windows\054 Windows Server) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 40.56 547.9898 cm
+Q
+q
+1 0 0 1 40.56 530.9898 cm
+q
+0.066667 0.066667 0.066667 rg
+BT
+1 0 0 1 0 2.4 Tm
+/F2 9.6 Tf
+12 TL
+(PROFESSIONAL EXPERIENCE) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 40.56 528.4398 cm
+q
+0.55 w
+1 J
+0.266667 0.266667 0.266667 RG
+n
+0 0 m
+514.1556 0 l
+S
+Q
+Q
+q
+1 0 0 1 40.56 515.0398 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F2 8.4 Tf
+10.4 TL
+(Mentor Intern \055 ADA \174 September 2026 \055 Present) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 40.56 504.3398 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 10 1.8 Tm
+/F1 7.9 Tf
+9.7 TL
+-6 0 Td
+(\055 Support learners with cybersecurity fundamentals\054 lab practice\054 technical guidance\054 and structured learning paths\056) Tj
+T*
+6 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 40.56 493.6398 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 10 1.8 Tm
+/F1 7.9 Tf
+9.7 TL
+-6 0 Td
+(\055 Explain offensive security concepts in a practical way\054 helping learners connect tools\054 methodology\054 and reporting\056) Tj
+T*
+6 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 40.56 481.2398 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F2 8.4 Tf
+10.4 TL
+(Cybersecurity Content Creator \055 pwn\137sec \174 May 2025 \055 Present) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 40.56 470.5398 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 10 1.8 Tm
+/F1 7.9 Tf
+9.7 TL
+-6 0 Td
+(\055 Create educational cybersecurity content focused on offensive security\054 web security\054 CTF labs\054 and beginner\055friendly technical explanations\056) Tj
+T*
+6 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 40.56 459.8398 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 10 1.8 Tm
+/F1 7.9 Tf
+9.7 TL
+-6 0 Td
+(\055 Translate hands\055on lab experience into clear walkthroughs and learning material for early cybersecurity learners\056) Tj
+T*
+6 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 40.56 447.4398 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F2 8.4 Tf
+10.4 TL
+(Cybersecurity Trainee \055 WE Innovate \174 Aug 2025) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 40.56 427.0398 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 10 11.5 Tm
+/F1 7.9 Tf
+9.7 TL
+-6 0 Td
+(\055 Performed web application penetration testing following OWASP Top 10 methodology\054 identifying SQL injection\054 XSS\054 IDOR\054 and broken) Tj
+T*
+6 0 Td
+(authentication vulnerabilities\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 40.56 406.6398 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 10 11.5 Tm
+/F1 7.9 Tf
+9.7 TL
+-6 0 Td
+(\055 Conducted network penetration testing in simulated environments\054 including enumeration\054 service analysis\054 exploitation\054 and evidence\055based) Tj
+T*
+6 0 Td
+(reporting\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 40.56 395.9398 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 10 1.8 Tm
+/F1 7.9 Tf
+9.7 TL
+-6 0 Td
+(\055 Practiced introductory Active Directory and mobile application security testing concepts as part of broader training\056) Tj
+T*
+6 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 40.56 375.5398 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 10 11.5 Tm
+/F1 7.9 Tf
+9.7 TL
+-6 0 Td
+(\055 Delivered structured security reports with CVSS severity ratings\054 root cause analysis\054 evidence\054 impact\054 and prioritized remediation) Tj
+T*
+6 0 Td
+(recommendations\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 40.56 363.1398 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F2 8.4 Tf
+10.4 TL
+(Network and Security Intern \055 DEPI \174 Apr 2024 \055 Oct 2024) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 40.56 352.4398 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 10 1.8 Tm
+/F1 7.9 Tf
+9.7 TL
+-6 0 Td
+(\055 Designed and deployed enterprise network topologies with VLANs\054 OSPF dynamic routing\054 and HSRP high\055availability failover\056) Tj
+T*
+6 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 40.56 341.7398 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 10 1.8 Tm
+/F1 7.9 Tf
+9.7 TL
+-6 0 Td
+(\055 Hardened network infrastructure by implementing ACLs\054 Port Security\054 and NAT policies to enforce least\055privilege access\056) Tj
+T*
+6 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 40.56 331.0398 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 10 1.8 Tm
+/F1 7.9 Tf
+9.7 TL
+-6 0 Td
+(\055 Performed network security audits\054 mapped data flows\054 and documented misconfigurations to reduce the attack surface\056) Tj
+T*
+6 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 40.56 318.6398 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F2 8.4 Tf
+10.4 TL
+(IEEE Cybersecurity Vice Head \174 Jan 2026 \055 Present) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 40.56 307.9398 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 10 1.8 Tm
+/F1 7.9 Tf
+9.7 TL
+-6 0 Td
+(\055 Help organize cybersecurity activities\054 technical sessions\054 and student learning initiatives focused on practical security skills\056) Tj
+T*
+6 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 40.56 304.9398 cm
+Q
+q
+1 0 0 1 40.56 287.9398 cm
+q
+0.066667 0.066667 0.066667 rg
+BT
+1 0 0 1 0 2.4 Tm
+/F2 9.6 Tf
+12 TL
+(PROJECTS AND SECURITY LABS) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 40.56 285.3898 cm
+q
+0.55 w
+1 J
+0.266667 0.266667 0.266667 RG
+n
+0 0 m
+514.1556 0 l
+S
+Q
+Q
+q
+1 0 0 1 40.56 262.9898 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 10 11.5 Tm
+/F1 7.9 Tf
+9.7 TL
+-6 0 Td
+(\055 Metasploitable Exploitation Report\072 documented enumeration\054 vulnerable service discovery\054 exploitation\054 post\055exploitation findings\054 and) Tj
+T*
+6 0 Td
+(remediation steps\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 40.56 252.2898 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 10 1.8 Tm
+/F1 7.9 Tf
+9.7 TL
+-6 0 Td
+(\055 Kioptrix Level 1 Report\072 investigated Apache\057mod\137ssl and Samba attack paths\054 privilege escalation\054 impact\054 and hardening recommendations\056) Tj
+T*
+6 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 40.56 241.5898 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 10 1.8 Tm
+/F1 7.9 Tf
+9.7 TL
+-6 0 Td
+(\055 Root Me NoSQL Injection Writeup\072 explained authentication logic testing and NoSQL injection technique used to discover a hidden user\056) Tj
+T*
+6 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 40.56 230.8898 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 10 1.8 Tm
+/F1 7.9 Tf
+9.7 TL
+-6 0 Td
+(\055 Online Delivery System\072 built a full\055stack delivery application using React and Java with authentication\054 order flow\054 and backend business logic\056) Tj
+T*
+6 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 40.56 227.8898 cm
+Q
+q
+1 0 0 1 40.56 210.8898 cm
+q
+0.066667 0.066667 0.066667 rg
+BT
+1 0 0 1 0 2.4 Tm
+/F2 9.6 Tf
+12 TL
+(CERTIFICATIONS AND ACHIEVEMENTS) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 40.56 208.3398 cm
+q
+0.55 w
+1 J
+0.266667 0.266667 0.266667 RG
+n
+0 0 m
+514.1556 0 l
+S
+Q
+Q
+q
+1 0 0 1 40.56 195.6398 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 10 1.8 Tm
+/F1 7.9 Tf
+9.7 TL
+-6 0 Td
+(\055 eCPPT \055 eLearnSecurity Certified Professional Penetration Tester\054 In Progress) Tj
+T*
+6 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 40.56 184.9398 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 10 1.8 Tm
+/F1 7.9 Tf
+9.7 TL
+-6 0 Td
+(\055 eWAPTX \055 eLearnSecurity Web Application Penetration Tester eXtreme) Tj
+T*
+6 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 40.56 174.2398 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 10 1.8 Tm
+/F1 7.9 Tf
+9.7 TL
+-6 0 Td
+(\055 Top 3\045 globally on TryHackMe \174 Active CTF competitor on Hack The Box) Tj
+T*
+6 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 40.56 163.5398 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 10 1.8 Tm
+/F1 7.9 Tf
+9.7 TL
+-6 0 Td
+(\055 CEH \055 Certified Ethical Hacker\054 MaharaTech) Tj
+T*
+6 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 40.56 152.8398 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 10 1.8 Tm
+/F1 7.9 Tf
+9.7 TL
+-6 0 Td
+(\055 CCNP ENCOR \055 Cisco Certified Network Professional Enterprise Core) Tj
+T*
+6 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 40.56 142.1398 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 10 1.8 Tm
+/F1 7.9 Tf
+9.7 TL
+-6 0 Td
+(\055 CCNA \055 Cisco Certified Network Associate) Tj
+T*
+6 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 40.56 139.1398 cm
+Q
+q
+1 0 0 1 40.56 122.1398 cm
+q
+0.066667 0.066667 0.066667 rg
+BT
+1 0 0 1 0 2.4 Tm
+/F2 9.6 Tf
+12 TL
+(EDUCATION) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 40.56 119.5898 cm
+q
+0.55 w
+1 J
+0.266667 0.266667 0.266667 RG
+n
+0 0 m
+514.1556 0 l
+S
+Q
+Q
+q
+1 0 0 1 40.56 106.1898 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F2 8.4 Tf
+10.4 TL
+(B\056Sc\056 Computer Engineering \055 Modern Academy for Engineering and Technology \174 Expected Jul 2027) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 40.56 94.98976 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F1 8.2 Tf
+10.2 TL
+(GPA\072 3\05644 \057 4\0560 \174 Relevant Coursework\072 Data Structures and Algorithms\054 Database Management\054 Software Engineering) Tj
+T*
+ET
+Q
+Q
+
+endstream
 endobj
 9 0 obj
 <<
-/Author (\(anonymous\)) /CreationDate (D:20260916203021+03'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20260916203021+03'00') /Producer (ReportLab PDF Library - \(opensource\)) 
-  /Subject (\(unspecified\)) /Title (\(anonymous\)) /Trapped /False
+/F1 10 0 R
+/F2 11 0 R
 >>
 endobj
 10 0 obj
 <<
-/Count 1 /Kids [ 7 0 R ] /Type /Pages
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 11 0 obj
 <<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 3480
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
 >>
-stream
-Gatm>gN);n(4DgYka,60Erm7*Y+DPd_/da&@g4c]a]#4%)GmM>e<1hMq=q&I6:,'rMjSM7J9C,5f<s5eD4S*(UT=EcJ?dEYqfo5!h-fr>koHnDlnPj5%tAuR[nh/UD:!.-03NeOf=IMr)t2aof';4$T,iA-Wt/<20=Sd7!Oa\L5+jKd(2]^SWW']si4eTa$Zd<oQeb+dj\,S[B)g0Cs0:_c6]gO_IZDP#Dcc&Kg[pOIINHY.CY_mo(4BO>,E1<p<.lGiGj7^@Z\;(A;Mat&%)%tX.V1TlW)"AoRuEW?#F_qe9Dp+dG4Dp5(N2!C[>@iU2u<nNdTcR@f=u.2qmaG`5$FVu,#"7es'Grbo/.m&E*#W/l%\'^>r&P<2nC#Wp,eTm6S1Lq_?]%[6M9,OcPga$m%lYoiq2toNA<S"L`0mk<6\H&Uiak[\8G,ch<aR`Ra4KJ'6DC[hemAWfro<edC\aZ7O^d"l2I8k6gJUlLAY]F!RoJ'$5piNQOT]4cKH&p>^<"SM&3=^9J[K6ABW'9,f1V+4Ga7%EU8$I^')--"eVOMJ]3nNan]%*@lJX!2K;1`).QYY3i0)7T"K0i'&c5ea?:t4mPWX,k(b/>$d\Rq%=@0MkGfgI["9BFl1VSS`)/jJ1mAQ.5i?q`k,SpZ?nms=;Bq/F?S\$0CW7[tS0]nZB3pJ/-39/HV)Yq.j\fsC@,JXca>Ha7o$uo1a1"1^fSiaZ1(O_p"W!,$q`eU,45&D.kM[1lE[UN$"^RoSbf4^rUH]^a(7'ml2F:^qYZo8o.oS$+mdFs-,*Baa'%.b#8]ga&+um8l2r^b)2r*#Pl-"l71=(/9^L`X`\W+*p7Z(`BODrFf7Ce"&%[P`q<ItLR'mi\,p=*g[@/mMFJF?89gD\pB7RP=L?Uj)G]S6RFXu:M*^C3j*D@t+6&^2XZ?j@(W#j+.k!uUTmg:Wk3([O6Ch5luYq^=dD)tZYOBs>5<k'Y<fKSSE!Yi3:79_`3E4UL>R7WI\i.4Rr2mhWOm98*0t&Sd]3e(-Q562Y:'$dFSPZmg-Xg#Z?PZ"iu+KTqn[bG%+OE6ET!UB\?`\-]@4M:$XIZY'G8W8K>aE(m*VH^do"M#\FG5Rp^&U?]A-=8nb9ntG'k/"Ud)m70q\.`Ub1iVe-6V$f@k!C:G%"0^$#TJcCf(uj?i7VN=gkMC(B^(BkA-nF[B#=LXhV:#7oS3Y]<q=GS32!kK'LLXT!REqb?4.Y_YieAhZ)msePU7f3@7dB2X>m3H.$\$.GH3T*3/j0FHgua,hc19;$q(jnX(pp^-HdnE0d44*@n:FG"F1Gn(-h619@&BE8%64e2^@4Xahp&p:F@-W=oMZ4Hqg&Fns+TZ\W9[\Wb^9LV&KFNJ?N=FAoI`KWr3j\`1a@)Jh<7Fr?XWTgYmuKTFus=g6@2t]qD#Bi,AT'AC'`7e_UEKcVUJS^eon_Y(K8#j`BGS]&gIBfSVn=c";O0,@e=Vb$4t1?28h4%.oCObS3cDgA)slIgNGSO5^Q27aaCo<TV>tSX6h^--"WZ72'5Tcq1?QlYodFpWGpE3d`F/a=AGZ&RUf0N'Qs#D.;WIbY%>^<H>bZ<?+k_?/ZIZKOL]&8'VQdsW7!=(Nf_3PGbGu(H/b:t>77'2IV0[qY^i"/C,T0:OIg@N8#oA#::F6e">sE>$8S1m>JiU*%C]kg\0[?`JkI<EDY]#2Xa<[9FnY=m"WnE^q@+f#R041@jqKe(S-`9NOQR*hW7GMRgX*[3OHd<S(BRkO4Om\7$f_#P?%<tUjFXrO*\'`l%78hNI%Dc*m=^8C-X3[1VMUINf/Ooh_<N%u3lI`lOKOcq>HO`"YtV%q.jQ1;\:gVs&^'OrZ\[?3Z.S;IShCkQ-?Y[]\*k*:08prDjhI4OX]-:kY^*hb!n<1CWCUDE)X8<N[R]%SR+)AcUMj.i^Rss9ouu95UFP9T0q@r!TKuHO+%-H+=*Luf<$p"F#S.$!BBUqbZk0"d%st$O8F#"<5C@*a7Nq=X'sDfVKTX[j15]A(M=AncU6#]aZHin!5>uF!#XO$*D0$q!l;8s;L4Vh^GP@B:\4k+:ZE,:>?p3KdUqU<#<r6`le4\6S[`$Q)+AF%8%["k3>OBj\AY%cmKb+tX>#JUE(\L"h9KB(cZj6FHo:c#`^I#7/3[XQXFt%oYr[fdrD?mZ?[(<*d+C(@';9Bjgd'!4jlUHOs&AsfZ.`@/[iFVI2YrBfcMuah4"c+_=2EnTsK/^$o<Tko9)V#62\sJ*;b*n=r\RNP.3k028&jTf>#hJC8.jhHQoN!+d7oHo"H*gFo#Us1`=MMr51l;U8!$f&3.Qnen2^&\o#>WHc;`/=Xf\0Q3S*2=a^M&Xop`@9+-Nn%Z"t%mL2X`7KLua95KU4F9()r,^?P!37L?3:;Ph>?8U^*\8RTKc@GRiC/KiNf)"Mc;48!u8D\OU3!$F/nV6Cq"*g[4U+9j+"oA]k5;5ZIm<!:YU;0$PN)^?VUq(i1Q0\.s6$.'rPH=cU3gfnB-d:h*1jVDP8?j1OH53'g@#?/<iJZ7NF[%IU2@g^*<lWP7lkj9DR=3a2].",bF!AApoDdK+ns,@4B0X,RV6Mo`IuUQa$L93MNF:C5Ml&Sr1/]B_#jjlM-Xq^9=OEG8CZ5"e!8`>[HOAkoM]g_tX2NU1$*f_eua3c"@?cW5R>'1KW#)6HY(=[(F6<"8F^ISm<r?^+O-V)/0cD%=*G9XE@9-+<G42_ST0GY%M'6)Gj/;h^0*rs]$8h^lNe;4JuiT59I<lf6O4(1-c,Ugg0&R#0P.(*A1MrComKY?sCon06Uee(nCnPS4Zq\@"l819V4DH2kSo)st+<g=kdO,AM3KfH_Yu4Xqj<qi2't=o:k%R/.4*`I0pEp!5)OQ`:/8*_kOhoH+sA+5qWuAJ$t^UDUQr#MhD6qAJeilUY19rHFqG[0h)cfach%WT0Wc!\Q:dDbB,$[s4dm5k?e:R=KpTp,"GHftb=q)F-M2Ti=t!m0_DYoLV[Ulja+a=ggd:ka0g5SG2'od$iX_ld=(d7sC.:[ERUSaL\iuXbg<c[.JohY-K4*e#A=i-,tW8-"@o%Zmn]Zd54RlAR6bbq9KR]d2n$9%>18lp_<u/Xg9JGh431`Sni:i&9d+S=o:es)s^/QI>aQG+._I?Yq&%BE8TR>*Q\p[cau!%#m%AAOa8he4#it:06a=<0"Hbg%8=Hn%P(g8/jOGS0\g]a0=LsQoqcGJc6h@d11f$IGW-ij#m2]PQ3X)5J@9Va#G&0O(YUiQ#"!"p'lcqs,6ucr"PHu7ZdLAil<=`uDZ^Z/*AnK+lO:BZMt,"B(SA+GUE0BpNi"k`6lTo&g_IXpN=2ct&EHdNKkdcE/-5hcC)$:do8/q1hc=-Hs3XM7"ciMkb0O#X';K`.I:OA#"Y"'#(QY(ufhhrG:/:bPT>8a1(,-hdRf816$L;)H6;(f5,ZMid,!XYL8'CO]ULUB=I@q5Mn./RSLog~>endstream
 endobj
 xref
 0 12
 0000000000 65535 f 
-0000000061 00000 n 
-0000000102 00000 n 
-0000000209 00000 n 
-0000000321 00000 n 
-0000000522 00000 n 
-0000000702 00000 n 
-0000000886 00000 n 
-0000001121 00000 n 
-0000001190 00000 n 
-0000001470 00000 n 
-0000001530 00000 n 
+0000000015 00000 n 
+0000000054 00000 n 
+0000000113 00000 n 
+0000000162 00000 n 
+0000000391 00000 n 
+0000000625 00000 n 
+0000000820 00000 n 
+0000001028 00000 n 
+0000012311 00000 n 
+0000012354 00000 n 
+0000012462 00000 n 
 trailer
 <<
-/ID 
-[<c25276735a753a5687e07e880e69af22><c25276735a753a5687e07e880e69af22>]
-% ReportLab generated PDF document -- digest (opensource)
-
-/Info 9 0 R
-/Root 8 0 R
 /Size 12
+/Root 3 0 R
+/Info 1 0 R
 >>
 startxref
-5102
+12575
 %%EOF
