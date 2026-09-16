@@ -1,3 +1,95 @@
-﻿<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Ahmed Mohamed — Computer Engineering student, cybersecurity enthusiast, and developer based in Cairo.'><meta name='theme-color' content='#0c1012'><title>Projects | Ahmed Mohamed</title><link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css'><link rel='stylesheet' href='site.css'><script src='site.js' defer></script></head><body><a class='skip-link' href='#main'>Skip to content</a><header class='site-header'><a class='brand' href='index.html' aria-label='Ahmed Mohamed home'><span class='brand-mark'>am.</span> Ahmed Mohamed <small>/ Security</small></a><button class='menu-toggle' aria-label='Toggle navigation' aria-controls='site-nav' aria-expanded='false'>Menu</button><nav class='site-nav' id='site-nav' aria-label='Main navigation'><a href='index.html'>Home</a><a href='About.html'>About</a><a href='Education.html'>Education</a><a href='Experience.html'>Experience</a><a href='Projects.html' class="active" aria-current="page">Projects</a><a href='reports-blog/index.html'>Reports</a><a href='Contact.html'>Contact</a><a href='cv.html'>CV</a></nav></header><main id='main'><section><div class="eyebrow">A practical portfolio</div><h1>Built to learn.<br>Designed to solve.</h1><p class="page-intro">A selection of software, networking, and hands-on security work.</p><a class="report-link" href="reports-blog/index.html">Security reports ↗</a><div class="filter-buttons"><button class="active" data-filter="all">All projects</button><button data-filter="web">Web development</button><button data-filter="network">Networking</button></div><div class="project-grid"><a href="web-project.html" class="project-card" data-category="web"><img src="img/project_web/project5.png" alt="Online Delivery System interface"><div class="project-title">Online Delivery System ↗</div><p>Full-stack development · React & Java</p></a><a href="network-project.html" class="project-card" data-category="network"><img src="img/os.png" alt="Networking project preview"><div class="project-title">Network Tool ↗</div><p>Network infrastructure · Cisco Packet Tracer</p></a></div></section><script>document.querySelectorAll('[data-filter]').forEach(button=>button.addEventListener('click',()=>{document.querySelectorAll('[data-filter]').forEach(b=>b.classList.toggle('active',b===button));document.querySelectorAll('[data-category]').forEach(card=>card.hidden=button.dataset.filter!=='all'&&card.dataset.category!==button.dataset.filter)}));</script></main><footer class='site-footer'><span>© 2026 Ahmed Mohamed Mostafa</span><span>Built with curiosity. Based in Cairo.</span><a href='https://github.com/amx2ahmed' target='_blank'>GitHub ↗</a></footer></body></html>
-
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Ahmed Mohamed - Computer Engineering student, cybersecurity enthusiast, and developer based in Cairo.">
+  <meta name="theme-color" content="#0c1012">
+  <title>Projects | Ahmed Mohamed</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="site.css">
+  <script src="site.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Ahmed Mohamed home">
+      <span class="brand-mark">am.</span>
+      Ahmed Mohamed
+      <small>/ Security</small>
+    </a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-controls="site-nav" aria-expanded="false">Menu</button>
+    <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="About.html">About</a>
+      <a href="Education.html">Education</a>
+      <a href="Experience.html">Experience</a>
+      <a href="Projects.html" class="active" aria-current="page">Projects</a>
+      <a href="reports-blog/index.html">Reports</a>
+      <a href="Contact.html">Contact</a>
+      <a href="cv.html">CV</a>
+    </nav>
+  </header>
+  <main id="main">
+    <section>
+      <div class="eyebrow">A practical portfolio</div>
+      <h1>Built to learn.<br>Designed to solve.</h1>
+      <p class="page-intro">A selection of offensive security labs, software engineering work, and networking practice.</p>
+      <a class="report-link" href="reports-blog/index.html">Open reports hub</a>
+      <div class="filter-buttons">
+        <button class="active" data-filter="all">All projects</button>
+        <button data-filter="security">Security</button>
+        <button data-filter="web">Web development</button>
+        <button data-filter="network">Networking</button>
+      </div>
+      <div class="project-grid">
+        <a href="Metasploitable/Metasploitable_1.html" class="project-card" data-category="security">
+          <img src="report_image/msfu-req1.png" alt="Metasploitable report preview">
+          <div class="project-title">Metasploitable Exploitation Report</div>
+          <p>Enumeration, vulnerable services, exploitation, post-exploitation notes, and remediation.</p>
+          <div class="project-tags"><span>Lab</span><span>Linux</span><span>Exploitation</span></div>
+        </a>
+        <a href="Kioptrix/Kioptrix_level1 .html" class="project-card" data-category="security">
+          <img src="report_image/Kioptrix.png" alt="Kioptrix report preview">
+          <div class="project-title">Kioptrix Level 1 Report</div>
+          <p>Service discovery, Samba investigation, privilege escalation, and hardening recommendations.</p>
+          <div class="project-tags"><span>Lab</span><span>Samba</span><span>Privilege Escalation</span></div>
+        </a>
+        <a href="https://medium.com/@AMX2_/finding-a-hidden-user-via-nosql-injection-root-me-4265d42041a6" class="project-card" data-category="security" target="_blank" rel="noopener noreferrer">
+          <img src="RootMe/nosql.webp" alt="Root Me NoSQL injection writeup preview">
+          <div class="project-title">Root Me NoSQL Injection Writeup</div>
+          <p>Authentication logic testing and NoSQL injection technique used to discover a hidden user.</p>
+          <div class="project-tags"><span>Web</span><span>NoSQL</span><span>CTF</span></div>
+        </a>
+        <a href="web-project.html" class="project-card" data-category="web">
+          <img src="img/project_web/project5.png" alt="Online Delivery System interface">
+          <div class="project-title">Online Delivery System</div>
+          <p>Full-stack food ordering and delivery management app built with React and Java.</p>
+          <div class="project-tags"><span>React</span><span>Java</span><span>Full Stack</span></div>
+        </a>
+        <a href="network-project.html" class="project-card" data-category="network">
+          <img src="img/os.png" alt="Networking project preview">
+          <div class="project-title">Network Tool</div>
+          <p>Network infrastructure practice and topology work using Cisco Packet Tracer.</p>
+          <div class="project-tags"><span>Cisco</span><span>Packet Tracer</span><span>Networking</span></div>
+        </a>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <span>(c) 2026 Ahmed Mohamed Mostafa</span>
+    <span>Built with curiosity. Based in Cairo.</span>
+    <a href="https://github.com/amx2ahmed" target="_blank">GitHub</a>
+  </footer>
+  <script>
+    document.querySelectorAll("[data-filter]").forEach((button) => {
+      button.addEventListener("click", () => {
+        document.querySelectorAll("[data-filter]").forEach((item) => item.classList.toggle("active", item === button));
+        document.querySelectorAll("[data-category]").forEach((card) => {
+          card.hidden = button.dataset.filter !== "all" && card.dataset.category !== button.dataset.filter;
+        });
+      });
+    });
+  </script>
+</body>
+</html>
