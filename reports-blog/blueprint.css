@@ -1,5 +1,5 @@
 .article-page{grid-template-columns:250px minmax(0,1fr)}
-.report-content{max-width:1120px;padding-top:30px}
+.report-content{max-width:1120px;padding-top:30px;margin-inline:auto;justify-self:center}
 .back-link{display:inline-flex;align-items:center;min-height:40px;margin-bottom:24px;color:var(--accent);font-size:14px;font-weight:700}
 .report-hero{position:relative;overflow:hidden;padding:clamp(28px,6vw,64px);border:1px solid rgba(155,234,106,.24);border-radius:12px;background:radial-gradient(ellipse at 85% 15%,rgba(155,234,106,.14),transparent 38%),linear-gradient(135deg,#191d22,#111216 70%)}
 .room-cover{margin:0 0 28px}
